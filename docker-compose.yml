@@ -1,0 +1,11 @@
+services:
+  godmode:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "127.0.0.1:8383:8383"
+    volumes:
+      - godmode_data:/app/data
+volumes:
+  godmode_data:
