@@ -1,5 +1,7 @@
 # ◈ GODMODE — Linux Digital Twin & Infrastructure Intelligence
 
+![GODMODE Linux Digital Twin cover](assets/godmode-cover.png)
+
 A runnable distributed **Linux observability prototype**. A Python read-only agent runs on each Fedora/Ubuntu host and sends CPU, memory, disk, process, systemd, Docker, network and disk data to a central FastAPI control plane with SQLite persistence. The dark responsive browser dashboard provides fleet health, process inspection, a host/container relationship map, historical CPU trend, event history, snapshots, and basic rule-based diagnostics.
 
 ## Start central server on yeet or your workstation
